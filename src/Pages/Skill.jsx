@@ -1,5 +1,5 @@
 import { FaReact, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaWordpress } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiFigma } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiFigma ,SiRedux} from "react-icons/si";
 
 export default function Skill() {
   const techs = [
@@ -12,6 +12,7 @@ export default function Skill() {
     { name: "Node.js", icon: <FaNodeJs size={24} className="text-green-500" /> },
     { name: "Figma", icon: <SiFigma size={24} className="text-pink-500" /> },
     { name: "WordPress", icon: <FaWordpress size={24} className="text-indigo-500" /> },
+     { name: "Redux", icon: <SiRedux size={24} className="text-purple-600" /> },
   ];
 
 

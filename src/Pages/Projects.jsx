@@ -3,6 +3,7 @@ import { SiTailwindcss, SiJavascript, SiFigma } from "react-icons/si";
 import stackneuroProject from "../assets/Stackneuro.png"
 import connexBetterProject from "../assets/connexBetter.png"
 import swadeshacademy from "../assets/swadeshacademy.png"
+import Logo from "./Logo";
 const projects = [
   {
     title: "Stackneuro",
@@ -78,6 +79,7 @@ export default function Projects() {
           </div>
         ))}
       </div>
+      <Logo></Logo>
     </section>
   );
 }
