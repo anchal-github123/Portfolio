@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from "cors";
-import { main } from './genai.js';
+import { main } from '../genai.js';
 const app=express()
 
 
@@ -19,6 +19,7 @@ app.post("/ask",async (req,res)=>{
   
 })
 
-app.listen(8000,()=>{
-    console.log("server is listing")
-})
+// app.listen(8000,()=>{
+//     console.log("server is listing")
+// })
+export default app;
