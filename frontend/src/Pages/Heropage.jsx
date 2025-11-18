@@ -1,6 +1,7 @@
 import Lottie from "lottie-react";
 import Animation from "../assets/girl on computer.json";
 import Typewriter from "typewriter-effect";
+import Assistatpage from "../Components/AIassistant/Assistatpage";
 export default function Heropage() {
   return (
     <div className="grid lg:grid-cols-2 lg:px-20 overflow-hidden " id="hero">
@@ -16,9 +17,13 @@ export default function Heropage() {
   />
 </h2>
 </div>
-     <div className="flex items-center justify-center ">
+     <div className="flex items-center justify-center">
      <Lottie animationData={Animation}></Lottie>
-    </div>
+   </div>
+    
+    
+     <Assistatpage></Assistatpage>
+    
     </div>
   );
 }

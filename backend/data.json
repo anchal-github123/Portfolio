@@ -1,0 +1,86 @@
+{
+  "name": "Anchal Nayak",
+  "role": "Frontend Developer",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Redux Toolkit",
+    "Framer Motion",
+    "Figma"
+  ],
+  "personalProjects": [
+
+    {
+      "name": "TaskFlow",
+      "description": "A productivity-focused task management app that allows users to create, organize, and track their tasks efficiently.",
+      "tech": ["React", "Tailwind CSS", "LocalStorage", "Framer Motion", "Figma"],
+      "link": ""
+    },
+    {
+      "name": "GeminiClone",
+      "description": "A Gemini AI-inspired conversational assistant built with React and the Gemini API, featuring a modern animated chat interface.",
+      "tech": ["React", "Tailwind CSS", "Gemini API", "Framer Motion", "Figma"],
+      "link": ""
+    }
+  ],
+  "freelancingProjects": [
+    {
+      "name": "Swadesh Academy",
+      "description": "An educational website for a coaching academy, designed in Figma and developed with React and Tailwind CSS for a responsive experience.",
+      "tech": ["React", "Tailwind CSS", "Framer Motion", "Figma"],
+      "link": "https://www.swadeshacademy.com"
+    },
+    {
+      "name": "StackNeuro",
+      "description": "A tech-based platform with a modern and fast frontend built using React, Framer Motion animations, and Tailwind CSS.",
+      "tech": ["React", "Tailwind CSS", "Framer Motion", "Figma"],
+      "link": "https://www.stackneuro.com"
+    },
+    {
+      "name": "ConnexBetter",
+      "description": "A professional company website designed in Figma and developed with React and Tailwind CSS, focusing on smooth animations and better performance.",
+      "tech": ["React", "Tailwind CSS", "Framer Motion", "Figma"],
+      "link": "https://www.connexbetter.com"
+    }
+  ],
+  "experience": [
+    {
+      "company": "ConnexBetter",
+      "role": "Frontend Developer Intern",
+      "duration": "3 months",
+      "techUsed": ["React", "Tailwind CSS", "Framer Motion", "Figma"]
+    }
+  ],
+  "goals": [
+  "Become a strong and confident Software Developer",
+  "Build real-world projects that solve practical problems",
+  "Master core concepts of frontend and backend development",
+  "Write clean, optimized, and scalable code",
+  "Improve problem-solving and system-thinking skills",
+  "Learn modern tools, frameworks, and best practices",
+  "Create impactful digital products and applications",
+  "Continuously learn and upgrade skills to stay industry ready"
+],
+"education": [
+  {
+    "degree": "Master of Computer Applications (MCA)",
+    "college": "GITAM, BBSR",
+    "duration": "2025 - 2027",
+    "description": "Pursuing MCA to strengthen advanced programming, software development, system design, and modern IT skills."
+  },
+  {
+    "degree": "Bachelor of Computer Applications (BCA)",
+    "college": "Creative Techno College, Angul",
+    "yearOfCompletion": "2024",
+    "description": "Completed a three-year program focused on programming fundamentals, web development, databases, and computer applications."
+  }
+]
+
+
+
+}
