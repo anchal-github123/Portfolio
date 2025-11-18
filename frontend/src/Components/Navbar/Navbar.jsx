@@ -44,7 +44,7 @@ const socialmedia=[
       ))}
     </div>
     <div className="p-2 backdrop-blur-sm bg-white  text-[#0a192f]  px-4 py-2 rounded-lg text-center hover:bg-[#0a192f]  hover:text-white ">
-      <a  href="/Anchal_Nayak_Resume.docx" className="font-semibold">Download CV</a>
+      <a  href="/Anchal_Resume.pdf" className="font-semibold">Download CV</a>
     </div>
   </div>
 
