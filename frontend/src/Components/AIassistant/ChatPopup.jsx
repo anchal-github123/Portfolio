@@ -5,6 +5,8 @@ export default function ChatPopup({ onClose }) {
   const [question,setQuestion]=useState([])
   const [isloading,setIsloading]=useState(false)
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 async function handelFormdata(e){
   e.preventDefault();
   setIsloading(true)
@@ -16,7 +18,7 @@ async function handelFormdata(e){
 
 // send to backend
 try{
-const res=await fetch("http://localhost:8000/ask",{
+const res=await fetch(`${API_URL}/ask`,{
   method:"POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ message: userdata }),
@@ -63,8 +65,7 @@ function handelInputData(e){
     w-fit
     ${q.sender === "user" ? "bg-gray-200" : "bg-sky-200"} `}>{q.text}</p>
             
-            })
-        }
+            }) }
         </div>
     </div>
 
@@ -97,9 +98,7 @@ function handelInputData(e){
     disabled:opacity-70
   "
 />
-
-       
-        </form>
+</form>
       </div>
 
     </div>
